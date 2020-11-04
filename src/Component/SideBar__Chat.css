@@ -1,0 +1,16 @@
+.sidebarChat{
+ background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+.sidebarChat__Right{
+  flex: 1 ;
+  padding: 10px;
+  border-bottom: 0.1px solid rgba(211, 211, 211, 0.37);
+}
+.sidebarChat__Right > p:nth-child(1){
+  font-weight: 700;
+}
